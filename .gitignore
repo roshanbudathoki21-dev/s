@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Contains the signed-in Playwright browser session (cookies/local storage).
+.uber-browser-profile/
+
+# Discovery reports can contain account, cart, and location metadata.
+uber-discovery/
+
+*.log
+npm-debug.log*
+
+
